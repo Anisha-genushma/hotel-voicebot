@@ -1,0 +1,345 @@
+[
+  {
+    "id": "hotel_overview_001",
+    "category": "Hotel Overview",
+    "title": "ITC Grand Chola – Hotel Introduction",
+    "content": "ITC Grand Chola, a Luxury Collection Hotel, is the largest and most iconic Marriott Hotel in Chennai. It is a palatial tribute to Southern India's greatest empires – the Imperial Cholas. The hotel is located in the heart of Chennai in the business hub of Guindy. It features four separate entry points, each with a distinct artistic identity. The hotel is part of Marriott's Luxury Collection brand.",
+    "keywords": ["ITC Grand Chola", "luxury hotel Chennai", "Marriott Chennai", "Luxury Collection Chennai", "Chola empire hotel", "5 star hotel Chennai", "iconic hotel Chennai", "Guindy hotel"]
+  },
+  {
+    "id": "hotel_overview_002",
+    "category": "Hotel Overview",
+    "title": "ITC Grand Chola – Address & Contact",
+    "content": "Address: #63 Mount Road, Guindy, Chennai, Tamil Nadu, India – 600032. Phone: +91 44-22200000. Toll Free: +91-18004196444. Fax: +91 44-22200200. Coordinates: Latitude 13.010574, Longitude 80.220192.",
+    "keywords": ["ITC Grand Chola address", "hotel phone number", "hotel contact", "Mount Road Chennai", "Guindy hotel address", "how to reach ITC Grand Chola"]
+  },
+  {
+    "id": "hotel_overview_003",
+    "category": "Hotel Overview",
+    "title": "ITC Grand Chola – Size & Scale",
+    "content": "ITC Grand Chola is one of the largest conference, banqueting and exhibition spaces in the country. The hotel has a total of 600 rooms across two accommodation types: 522 standard rooms and 78 serviced apartments. There are 11 award-winning food and beverage dining outlets offering regional, national and global cuisines.",
+    "keywords": ["how many rooms ITC Grand Chola", "600 rooms Chennai hotel", "serviced apartments Chennai", "largest hotel Chennai", "conference hotel Chennai"]
+  },
+  {
+    "id": "rooms_001",
+    "category": "Rooms",
+    "title": "ITC Grand Chola – Room Types Overview",
+    "content": "ITC Grand Chola offers 522 luxuriously designed guest rooms and 78 serviced apartments. Each room is described as a triumph of design aesthetics. Room types include standard rooms and premium category rooms with additional privileges such as cocktail hours.",
+    "keywords": ["room types ITC Grand Chola", "guest rooms Chennai", "luxury rooms Chennai", "hotel rooms available", "accommodation options"]
+  },
+  {
+    "id": "rooms_002",
+    "category": "Rooms",
+    "title": "ITC Grand Chola – Room Features & Amenities",
+    "content": "Key room features include: full room control through iPad, bathrooms with separate bathtub and shower cubicle, 24-hour in-room dining, customized pillow menu, and sleep menu. Premium category rooms and suites include complimentary cocktail hours from 6 PM to 8 PM. Service apartments come equipped with a kitchenette, dishwasher, and microwave.",
+    "keywords": ["room amenities", "in-room dining", "iPad room control", "pillow menu", "bathtub and shower", "cocktail hours", "kitchenette apartment", "24 hour room service"]
+  },
+  {
+    "id": "suites_001",
+    "category": "Suites",
+    "title": "ITC Grand Chola – Suites",
+    "content": "ITC Grand Chola offers luxury suites as part of its premium accommodation category. Suites include cocktail hours from 6 PM to 8 PM as a complimentary privilege. Suites feature separate bathtub and shower cubicles and full iPad room control. Exact suite names and sizes are available on the Marriott booking page.",
+    "keywords": ["suites ITC Grand Chola", "luxury suites Chennai", "premium suite hotel", "suite amenities", "cocktail hour suites"]
+  },
+  {
+    "id": "amenities_001",
+    "category": "Amenities",
+    "title": "ITC Grand Chola – Property Amenities",
+    "content": "The hotel offers the following on-site amenities: 11 restaurants, 1 bar, outdoor pool, whirlpool/hot tub, business center, meeting space, hair salon, spa (Kaya Kalp The Royal Spa), fitness center (complimentary), on-site laundry, complimentary Wi-Fi (free for Marriott Bonvoy Members), valet dry cleaning, same-day dry cleaning, 24-hour room service, wake-up calls, concierge service, and daily housekeeping.",
+    "keywords": ["hotel amenities", "hotel facilities", "outdoor pool Chennai", "whirlpool", "business center", "hair salon", "laundry", "dry cleaning", "housekeeping", "concierge", "room service"]
+  },
+  {
+    "id": "dining_001",
+    "category": "Dining",
+    "title": "ITC Grand Chola – Dining Overview",
+    "content": "ITC Grand Chola features 11 award-winning food and beverage dining outlets offering regional, national and global cuisines. There is also 1 bar on-site. The dining outlets cater to a wide range of tastes from South Indian to Italian, Japanese, Chinese, North Indian, and more.",
+    "keywords": ["dining ITC Grand Chola", "restaurants Chennai hotel", "hotel restaurants", "food outlets", "award winning restaurants", "11 restaurants"]
+  },
+  {
+    "id": "restaurants_001",
+    "category": "Restaurants",
+    "title": "Peshawri – North West Frontier Cuisine",
+    "content": "Peshawri is a restaurant at ITC Grand Chola offering robust and smoky flavours of the North West Frontier. The cuisine is prepared using clay tandoors and charcoal grills. Eating with fingers is encouraged as part of the authentic dining experience.",
+    "keywords": ["Peshawri", "North Indian restaurant", "tandoor restaurant Chennai", "North West Frontier food", "clay oven restaurant", "ITC restaurant"]
+  },
+  {
+    "id": "restaurants_002",
+    "category": "Restaurants",
+    "title": "Pan Asian – Asian Multi-Cuisine Restaurant",
+    "content": "Pan Asian restaurant at ITC Grand Chola offers a range of Asian cuisines including sushi, Sichuan cuisine with fiery peppercorns, and many more dishes from the Near and Far East. It is a multi-cuisine Asian dining experience.",
+    "keywords": ["Pan Asian restaurant", "sushi Chennai", "Sichuan food Chennai", "Asian restaurant hotel", "Japanese food Chennai", "Chinese food hotel"]
+  },
+  {
+    "id": "restaurants_003",
+    "category": "Restaurants",
+    "title": "Royal Vega – Luxury Vegetarian Restaurant",
+    "content": "Royal Vega is an exclusive luxury vegetarian restaurant at ITC Grand Chola. It features a fine collection of signature vegetarian dishes from the erstwhile royal kitchens of India. It is one of the most prestigious vegetarian dining destinations in Chennai.",
+    "keywords": ["Royal Vega", "vegetarian restaurant Chennai", "luxury veg restaurant", "royal kitchen food", "Indian vegetarian cuisine hotel"]
+  },
+  {
+    "id": "restaurants_004",
+    "category": "Restaurants",
+    "title": "Madras Pavilion – All-Day Dining Buffet",
+    "content": "Madras Pavilion is a vibrant all-day dining restaurant at ITC Grand Chola. It offers varied buffet service three times a day (breakfast, lunch and dinner) with Indian and international selections. Guests can dine at unique table settings or in a private dining room.",
+    "keywords": ["Madras Pavilion", "buffet restaurant Chennai", "all day dining", "breakfast buffet Chennai", "lunch buffet hotel", "private dining room"]
+  },
+  {
+    "id": "restaurants_005",
+    "category": "Restaurants",
+    "title": "Ottimo Cucina Italiana – Italian Restaurant",
+    "content": "Ottimo Cucina Italiana at ITC Grand Chola recreates a traditional Italian kitchen. The menu includes authentic antipasti, pizzas baked in a wood-fired oven, artisanal pastas, and much more.",
+    "keywords": ["Ottimo", "Italian restaurant Chennai", "wood fired pizza Chennai", "pasta hotel", "Cucina Italiana", "European restaurant ITC"]
+  },
+  {
+    "id": "restaurants_006",
+    "category": "Restaurants",
+    "title": "Avartana – Progressive South Indian Fine Dining",
+    "content": "Avartana at ITC Grand Chola offers an exclusive blend of traditional and progressive renditions of Southern Indian cuisine. The restaurant is rooted in the unique tastes, aromas and flavours of southern Indian spices.",
+    "keywords": ["Avartana", "South Indian fine dining", "progressive South Indian cuisine", "Tamil food hotel", "southern India cuisine restaurant"]
+  },
+  {
+    "id": "restaurants_007",
+    "category": "Restaurants",
+    "title": "Cafe Mercara Express – 24-Hour Coffee Shop",
+    "content": "Cafe Mercara Express is a friendly 24-hour coffee shop at ITC Grand Chola. It is known for its extensive collection of coffees along with a delicious array of global gourmet food options.",
+    "keywords": ["Cafe Mercara", "24 hour cafe", "coffee shop hotel", "all night restaurant", "gourmet coffee Chennai", "late night food hotel"]
+  },
+  {
+    "id": "restaurants_008",
+    "category": "Restaurants",
+    "title": "Fabelle – Luxury Chocolate Boutique",
+    "content": "Fabelle is a one-of-a-kind luxury chocolate boutique at ITC Grand Chola. It offers handcrafted chocolate creations designed to activate all the senses. It is a unique chocolate tasting and gifting experience.",
+    "keywords": ["Fabelle", "chocolate boutique Chennai", "luxury chocolates hotel", "handcrafted chocolates", "chocolate experience Chennai"]
+  },
+  {
+    "id": "restaurants_009",
+    "category": "Restaurants",
+    "title": "Yura – Artisanal Gelato",
+    "content": "Yura – Artisanal Scoops is a gelato parlour at ITC Grand Chola. It offers artisanal gelato scoops in a beautiful, immersive setting where every scoop is described as a moment of pure joy.",
+    "keywords": ["Yura", "gelato Chennai", "ice cream hotel", "artisanal scoops", "dessert hotel Chennai"]
+  },
+  {
+    "id": "restaurants_010",
+    "category": "Restaurants",
+    "title": "Ritvah – Premium Mithai Boutique",
+    "content": "Ritvah is a premium mithai (Indian sweets) boutique at ITC Grand Chola. It stands as a tribute to India's enduring culture of celebration, gifting, and shared joy.",
+    "keywords": ["Ritvah", "Indian sweets Chennai", "mithai boutique", "gifting sweets hotel", "Indian desserts hotel"]
+  },
+  {
+    "id": "restaurants_011",
+    "category": "Restaurants",
+    "title": "Tranquebar – Elegant Hotel Bar",
+    "content": "Tranquebar is an elegant bar at ITC Grand Chola where luxury and refinement make for a winning combination. It serves as one of the on-site bar options at the hotel.",
+    "keywords": ["Tranquebar bar", "hotel bar Chennai", "cocktail bar Chennai", "luxury bar ITC Grand Chola"]
+  },
+  {
+    "id": "restaurants_012",
+    "category": "Restaurants",
+    "title": "The Cheroot – Malt Bar",
+    "content": "The Cheroot is a distinguished malt bar at ITC Grand Chola – described as the only such bar in Chennai that understands the harmony of indulgent beverages with timeless sophistication. It is a place for ideas, conversations, and premium whisky and malt beverages.",
+    "keywords": ["The Cheroot", "malt bar Chennai", "whisky bar hotel", "premium bar ITC", "scotch whisky Chennai"]
+  },
+  {
+    "id": "spa_001",
+    "category": "Spa",
+    "title": "Kaya Kalp – The Royal Spa",
+    "content": "Kaya Kalp – The Royal Spa at ITC Grand Chola takes its name from the Sanskrit word meaning 'rejuvenation of mind, body, and souls'. The spa offers a comprehensive menu of unique therapies sourced from every corner of the globe in an ambiance of regal beauty. It is accessible to guests with disabilities.",
+    "keywords": ["Kaya Kalp spa", "spa Chennai hotel", "royal spa ITC", "massage Chennai hotel", "wellness spa Chennai", "luxury spa 5 star", "body treatments hotel"]
+  },
+  {
+    "id": "swimming_pool_001",
+    "category": "Swimming Pool",
+    "title": "ITC Grand Chola – Swimming Pools",
+    "content": "ITC Grand Chola features multiple outdoor swimming pools under the name 'The Marina Pools'. These include The Marina Pools – East Wing, The Marina Pools – North Wing, and The Marina Pools – South Wing. A whirlpool is also available on the property.",
+    "keywords": ["swimming pool Chennai hotel", "outdoor pool ITC Grand Chola", "Marina Pools", "hotel pool Chennai", "whirlpool hotel", "jacuzzi hotel Chennai"]
+  },
+  {
+    "id": "gym_001",
+    "category": "Gym",
+    "title": "ITC Grand Chola – Fitness Center & Yoga Studio",
+    "content": "ITC Grand Chola offers a complimentary fitness center called the 38 Towers Gymnasium (Health Club). A Yoga Studio is also available on-site. The fitness center is accessible to guests with disabilities.",
+    "keywords": ["gym hotel Chennai", "fitness center ITC Grand Chola", "free gym hotel", "yoga studio Chennai hotel", "health club 5 star hotel", "exercise facilities"]
+  },
+  {
+    "id": "airport_transfer_001",
+    "category": "Airport Transfer",
+    "title": "ITC Grand Chola – Airport Transfer & Transportation",
+    "content": "The nearest airport is Chennai International Airport (MAA), located approximately 8.0 KM from the hotel. Airport phone: +91 44-22560551. The hotel does not provide a complimentary shuttle service. Hotel taxi service is available on request: one-way fare is ₹1692.00 and round trip is ₹3109.00. Contact for airport transfer: +91 44-66055000.",
+    "keywords": ["airport transfer Chennai hotel", "taxi from airport ITC", "Chennai airport to ITC Grand Chola", "MAA airport hotel distance", "hotel car service", "airport pickup Chennai", "shuttle service"]
+  },
+  {
+    "id": "parking_001",
+    "category": "Parking",
+    "title": "ITC Grand Chola – Parking",
+    "content": "ITC Grand Chola offers complimentary on-site parking and complimentary valet parking. Electric car charging stations are available on the property (subject to availability). RV, bus, or other heavy-duty vehicle parking requires prior intimation to the hotel and may incur additional charges.",
+    "keywords": ["hotel parking Chennai", "free parking ITC Grand Chola", "valet parking hotel", "EV charging hotel", "electric car charging Chennai", "RV parking hotel"]
+  },
+  {
+    "id": "wifi_001",
+    "category": "WiFi",
+    "title": "ITC Grand Chola – Wi-Fi",
+    "content": "Complimentary Wi-Fi is available at ITC Grand Chola. Marriott Bonvoy members receive complimentary in-room internet access when they book directly with the hotel. Non-members may be subject to charges; guests are encouraged to sign up for Marriott Bonvoy for free at checkout to receive complimentary access.",
+    "keywords": ["Wi-Fi hotel Chennai", "free internet hotel", "complimentary WiFi ITC", "Marriott Bonvoy WiFi", "in-room internet access", "hotel internet policy"]
+  },
+  {
+    "id": "checkin_001",
+    "category": "Check-in",
+    "title": "ITC Grand Chola – Check-in Policy",
+    "content": "Check-in time at ITC Grand Chola is 3:00 PM. The front desk is staffed 24 hours a day. Valid ID proof accepted for check-in includes Voter ID, Driving License, and Passport only. Aadhaar Card and PAN Card are not accepted as valid Government ID proof for check-in.",
+    "keywords": ["check-in time ITC Grand Chola", "hotel check in time", "3 PM check in", "valid ID hotel India", "check in policy Chennai hotel", "passport check in hotel", "Aadhar card hotel policy"]
+  },
+  {
+    "id": "checkout_001",
+    "category": "Check-out",
+    "title": "ITC Grand Chola – Check-out Policy",
+    "content": "Check-out time at ITC Grand Chola is 12:00 PM (noon). Guests needing a late checkout should contact the front desk. The 24-hour front desk is available for any checkout assistance.",
+    "keywords": ["check-out time ITC Grand Chola", "checkout policy hotel", "12 PM checkout", "late checkout hotel Chennai", "hotel departure time"]
+  },
+  {
+    "id": "child_policy_001",
+    "category": "Child Policy",
+    "title": "ITC Grand Chola – Child Policy",
+    "content": "Rooms at ITC Grand Chola can accommodate a maximum of 8 total guests per room (adults and children combined). Age of children must be specified at the time of booking. Up to 3 rooms can be booked per person. Specific rollaway bed and crib policies are listed on the Marriott accommodations page.",
+    "keywords": ["child policy hotel Chennai", "kids hotel policy", "children accommodation", "family hotel Chennai", "maximum guests per room", "rollaway bed hotel"]
+  },
+  {
+    "id": "pet_policy_001",
+    "category": "Pet Policy",
+    "title": "ITC Grand Chola – Pet Policy",
+    "content": "Pets are welcome at ITC Grand Chola in serviced apartments only. Pet fee: ₹1750 per pet per night. Maximum 2 pets per room. Maximum pet weight: 25 kg per pet. Non-refundable pet fee per stay: ₹4100.00. Pets are not permitted in standard hotel rooms.",
+    "keywords": ["pet policy hotel Chennai", "pets allowed ITC Grand Chola", "dog hotel Chennai", "pet fee hotel India", "pet friendly hotel", "pet weight limit hotel"]
+  },
+  {
+    "id": "cancellation_001",
+    "category": "Cancellation Policy",
+    "title": "ITC Grand Chola – Cancellation Policy",
+    "content": "Cancellation policies vary by rate type and booking date. Guests are encouraged to review the cancellation terms at time of booking on the Marriott website. For flexible rate bookings, cancellation terms are typically available. Non-refundable rates may apply for certain promotional offers.",
+    "keywords": ["cancellation policy hotel", "ITC Grand Chola cancellation", "refund hotel booking", "cancel hotel Chennai", "non refundable rate hotel"]
+  },
+  {
+    "id": "payment_methods_001",
+    "category": "Payment Methods",
+    "title": "ITC Grand Chola – Payment Methods",
+    "content": "ITC Grand Chola accepts credit cards as a primary form of payment. Marriott Bonvoy points can also be used for eligible bookings. Corporate/Promo Codes can be applied at the time of booking for applicable discounts.",
+    "keywords": ["payment methods hotel", "credit card hotel Chennai", "Marriott Bonvoy points", "hotel payment options", "pay by card hotel India"]
+  },
+  {
+    "id": "laundry_001",
+    "category": "Laundry",
+    "title": "ITC Grand Chola – Laundry Services",
+    "content": "ITC Grand Chola provides on-site laundry services, valet dry cleaning, and same-day dry cleaning services for hotel guests.",
+    "keywords": ["laundry service hotel Chennai", "dry cleaning hotel", "same day laundry", "valet laundry ITC", "hotel laundry service"]
+  },
+  {
+    "id": "housekeeping_001",
+    "category": "Housekeeping",
+    "title": "ITC Grand Chola – Housekeeping",
+    "content": "Daily housekeeping service is provided at ITC Grand Chola for all guest rooms and suites.",
+    "keywords": ["housekeeping hotel", "daily cleaning hotel", "room cleaning service", "turndown service hotel"]
+  },
+  {
+    "id": "accessibility_001",
+    "category": "Accessibility",
+    "title": "ITC Grand Chola – Accessibility Features",
+    "content": "ITC Grand Chola is committed to accessibility. Features include: accessible on-site parking, property elevators, accessible entrances to the Business Center, Fitness Center, Spa, Main Entrance, Meeting Spaces, and Restaurants. Room access is through interior corridors. Guest room accessibility features include: accessible vanities, adjustable-height hand-held shower wand, bathtub grab rails, deadbolts on doors, electronic room key, self-closing doors, lever handles on doors, lowered electrical outlets, lowered deadbolts, lowered night guards, lowered viewports, mobility accessible rooms, non-slip grab rails in bathrooms, roll-in shower, safety chains/latches on doors, toilet seat at wheelchair height (disabled toilet), and viewports in doors. For specific queries call +91 44-22200000.",
+    "keywords": ["accessibility hotel Chennai", "wheelchair hotel India", "disabled friendly hotel", "handicap room Chennai", "roll in shower hotel", "accessible hotel facilities", "mobility impaired hotel"]
+  },
+  {
+    "id": "meetings_001",
+    "category": "Meetings",
+    "title": "ITC Grand Chola – Meeting Spaces",
+    "content": "ITC Grand Chola offers one of the largest meetings and conference spaces in India. Meeting spaces are accessible to guests with disabilities. A dedicated business center is also available on-site. For group bookings and meetings, guests can contact the hotel directly.",
+    "keywords": ["meeting rooms hotel Chennai", "conference rooms ITC Grand Chola", "corporate meetings hotel", "business center Chennai", "meeting space 5 star hotel"]
+  },
+  {
+    "id": "banquet_001",
+    "category": "Banquet",
+    "title": "ITC Grand Chola – Banquet Facilities",
+    "content": "ITC Grand Chola offers one of the largest banqueting and exhibition spaces in the country. It is well-suited for large corporate events, social gatherings, product launches, and exhibitions. For banquet inquiries, contact the hotel at +91 44-22200000.",
+    "keywords": ["banquet hall Chennai", "banquet facility hotel", "event space ITC Grand Chola", "large event venue Chennai", "exhibition space Chennai", "corporate banquet hotel"]
+  },
+  {
+    "id": "wedding_001",
+    "category": "Wedding",
+    "title": "ITC Grand Chola – Wedding Venues",
+    "content": "ITC Grand Chola provides grand venues suitable for weddings, including the large banqueting spaces. The hotel's palatial design with inspiration from the Imperial Chola dynasty makes it an iconic wedding destination. For wedding inquiries, contact the hotel at +91 44-22200000.",
+    "keywords": ["wedding hotel Chennai", "wedding venue ITC Grand Chola", "luxury wedding Chennai", "5 star wedding hotel", "wedding banquet Chennai", "destination wedding Chennai"]
+  },
+  {
+    "id": "business_centre_001",
+    "category": "Business Centre",
+    "title": "ITC Grand Chola – Business Centre",
+    "content": "An on-site business center is available at ITC Grand Chola. The entrance to the business center is fully accessible. The hotel also offers concierge desk services and currency exchange for business travellers.",
+    "keywords": ["business center hotel Chennai", "business facilities hotel", "corporate hotel Chennai", "office services hotel", "currency exchange hotel"]
+  },
+  {
+    "id": "faqs_001",
+    "category": "FAQs",
+    "title": "ITC Grand Chola – Frequently Asked Questions",
+    "content": "Q: What are the check-in and check-out times? A: Check-in is at 3:00 PM; check-out is at 12:00 PM. Q: Are pets allowed? A: Yes, pets are welcome in apartments only. Fee is ₹1750 per pet per night; maximum 2 pets; max weight 25 kg; non-refundable per-stay fee ₹4100. Q: Is parking available? A: Yes, complimentary on-site and valet parking. EV charging stations available. Q: Is Wi-Fi available? A: Yes, complimentary for Marriott Bonvoy members when booked direct. Q: What is the closest airport? A: Chennai International Airport (MAA), 8.0 KM away. Q: Is there an airport shuttle? A: No shuttle; hotel taxi service available – one-way ₹1692, round trip ₹3109. Q: Are EV charging stations available? A: Yes, subject to availability. Q: What IDs are accepted at check-in? A: Voter ID, Driving License, Passport only. Aadhaar Card and PAN Card are not accepted.",
+    "keywords": ["FAQs ITC Grand Chola", "hotel questions Chennai", "check in checkout FAQ", "airport distance hotel", "EV charging FAQ", "pet policy FAQ", "parking FAQ", "WiFi FAQ"]
+  },
+  {
+    "id": "nearby_attractions_001",
+    "category": "Nearby Attractions",
+    "title": "ITC Grand Chola – Nearby Attractions & Transport",
+    "content": "The hotel is located at #63 Mount Road, Guindy, Chennai. Nearby transport includes Chennai Central Railway Station. The hotel is 8.0 KM from Chennai International Airport. Local car rental, private car service, and limousine/van service are available through the hotel's Travel House. The hotel is well-connected to major business districts and tourist destinations in Chennai.",
+    "keywords": ["near ITC Grand Chola", "attractions near hotel Chennai", "things to do near hotel", "Chennai Central Railway", "Mount Road attractions", "Guindy sightseeing"]
+  },
+  {
+    "id": "contact_information_001",
+    "category": "Contact Information",
+    "title": "ITC Grand Chola – Full Contact Details",
+    "content": "Hotel Name: ITC Grand Chola, a Luxury Collection Hotel, Chennai. Address: #63 Mount Road, Guindy, Chennai, Tamil Nadu, India – 600032. Main Phone: +91 44-22200000. Toll Free: +91-18004196444. Fax: +91 44-22200200. Airport Transfer: +91 44-66055000. Chennai International Airport (MAA): +91 44-22560551. Accessibility queries: +91 44-22200000.",
+    "keywords": ["contact ITC Grand Chola", "hotel phone number Chennai", "hotel email", "hotel fax", "toll free hotel India", "hotel helpline"]
+  },
+  {
+    "id": "transportation_001",
+    "category": "Transportation",
+    "title": "ITC Grand Chola – Local Transportation",
+    "content": "ITC Grand Chola provides multiple transportation options for guests. On-property services include private car service, limousine/van service, onsite car rental, and a Travel House. Nearby, Chennai Central Railway Station is accessible. Airport taxi to Chennai International Airport (MAA) is available: one-way ₹1692.00 and round trip ₹3109.00 (on request via +91 44-66055000). The hotel does not operate a complimentary airport shuttle.",
+    "keywords": ["transportation hotel Chennai", "hotel car service", "limousine hotel", "train station near hotel", "taxi from hotel", "car rental hotel Chennai"]
+  },
+  {
+    "id": "sustainability_001",
+    "category": "Sustainability",
+    "title": "ITC Grand Chola – Sustainability & Green Practices",
+    "content": "ITC Grand Chola is certified LEED: Existing Buildings Certified. Environmental footprints: carbon footprint is 203.20 kg per room night, water footprint is 1475.48 litres per room night. Environmental practices include guest room recycling and electric car charging stations. The hotel is committed to responsible luxury and sustainable operations.",
+    "keywords": ["sustainability hotel Chennai", "green hotel India", "LEED certified hotel", "eco friendly hotel Chennai", "carbon footprint hotel", "recycling hotel", "EV charging sustainability"]
+  },
+  {
+    "id": "safety_001",
+    "category": "Safety",
+    "title": "ITC Grand Chola – Safety Features",
+    "content": "Guest rooms at ITC Grand Chola include multiple safety features: deadbolts on guest room and suite doors, self-closing doors, safety chains and/or latches on guest doors, lowered deadbolts, lowered night guards, electronic room key access, and viewports in guest room doors.",
+    "keywords": ["hotel safety features", "room security hotel", "door safety hotel", "safe hotel Chennai", "electronic key hotel", "deadbolt door hotel"]
+  },
+  {
+    "id": "emergency_services_001",
+    "category": "Emergency Services",
+    "title": "ITC Grand Chola – Emergency & Support Services",
+    "content": "ITC Grand Chola has a 24-hour front desk staffed at all times. Concierge services are available around the clock. For accessibility-related emergencies or special needs, contact +91 44-22200000. Wake-up calls are available through the front desk. The hotel is equipped with elevators for emergency evacuation assistance.",
+    "keywords": ["emergency services hotel", "24 hour front desk", "hotel security", "emergency contact hotel Chennai", "wake up call hotel", "hotel help services"]
+  },
+  {
+    "id": "driver_accommodation_001",
+    "category": "Driver Accommodation",
+    "title": "ITC Grand Chola – Driver Accommodation",
+    "content": "ITC Grand Chola offers complimentary on-site parking and valet parking which can be utilized by chauffeurs and drivers. Guests arriving with private cars, limousines, or hired vehicles can coordinate with the hotel concierge at +91 44-22200000 for driver accommodation arrangements. RV, bus or heavy-duty vehicle parking requires prior intimation to the hotel.",
+    "keywords": ["driver accommodation hotel", "chauffeur parking Chennai", "driver facilities hotel India", "valet driver hotel", "staff parking hotel"]
+  },
+  {
+    "id": "other_001",
+    "category": "Other",
+    "title": "ITC Grand Chola – Awards & Recognition",
+    "content": "ITC Grand Chola, a Luxury Collection Hotel, Chennai received the TripAdvisor Travelers' Choice Hotel award in 2021. The hotel is recognized as one of the premier luxury hospitality destinations in South India.",
+    "keywords": ["awards ITC Grand Chola", "TripAdvisor award hotel", "best hotel Chennai award", "luxury hotel recognition", "5 star award India"]
+  },
+  {
+    "id": "other_002",
+    "category": "Other",
+    "title": "ITC Grand Chola – Languages & Staff Services",
+    "content": "Staff at ITC Grand Chola speak English, Hindi, and Tamil. Currency exchange services are available on-site. The hotel has 24-hour front desk service, concierge desk services, and property elevators.",
+    "keywords": ["languages spoken hotel", "Tamil speaking hotel", "Hindi speaking staff hotel", "currency exchange Chennai hotel", "multilingual hotel staff"]
+  }
+]
