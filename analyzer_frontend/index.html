@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Call Analyzer</title>
+  <link rel="stylesheet" href="/analyzer-static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Hotel Call Analyzer</h1>
+      <p class="subtitle">Upload a recorded call, transcribe with Gemini, score sentiment &amp; booking intent</p>
+    </header>
+
+    <main class="layout">
+      <!-- LEFT: Upload + transcription -->
+      <section class="card">
+        <h2>1. Transcribe the Recording</h2>
+        <p class="hint">
+          Upload a recorded call (.wav/.mp3/.ogg/.m4a/.aac/.flac). The file is sent to the backend,
+          which uploads it to Gemini and generates a full transcript of the entire recording in a
+          single pass — no browser speech APIs involved.
+        </p>
+
+        <label class="field-label" for="audioFile">Recorded Call File</label>
+        <input type="file" id="audioFile" accept="audio/*" />
+
+        <audio id="audioPreview" controls class="hidden"></audio>
+
+        <div class="controls">
+          <button id="transcribeBtn" class="btn btn-primary" disabled>Transcribe with Gemini</button>
+          <span id="transcribeStatus" class="status-text"></span>
+        </div>
+
+        <label class="field-label" for="transcript">Transcript (editable once generated)</label>
+        <textarea id="transcript" rows="13" placeholder="Transcript will appear here after transcription. You can also paste/edit a transcript directly."></textarea>
+
+        <label class="field-label" for="durationOverride">
+          Call Duration (seconds) — auto-filled from the audio file
+        </label>
+        <input type="number" id="durationOverride" min="1" step="1" placeholder="e.g. 184" />
+
+        <button id="analyzeBtn" class="btn btn-accent">Analyze Call →</button>
+      </section>
+
+      <!-- RIGHT: Results -->
+      <section class="card">
+        <h2>2. Analysis Results</h2>
+        <div id="resultsEmpty" class="empty-state">
+          Results will appear here after you analyze a call.
+        </div>
+
+        <div id="resultsLoading" class="loading hidden">
+          <div class="spinner"></div>
+          <p>Gemini is analyzing the transcript…</p>
+        </div>
+
+        <div id="resultsError" class="error hidden"></div>
+
+        <div id="resultsContent" class="hidden">
+          <div class="result-row">
+            <div class="metric-box">
+              <span class="metric-label">Booking Probability</span>
+              <span id="bookingProb" class="metric-value">—</span>
+              <div class="progress-bar"><div id="bookingProbBar" class="progress-fill"></div></div>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label">Overall Sentiment</span>
+              <span id="sentimentLabel" class="metric-value">—</span>
+              <div class="progress-bar sentiment-bar">
+                <div id="sentimentMarker" class="sentiment-marker"></div>
+              </div>
+            </div>
+          </div>
+
+          <h3>Topic Time Breakdown</h3>
+          <div id="topicBreakdown" class="topic-list"></div>
+
+          <h3>Key Signals</h3>
+          <ul id="keySignals" class="signals-list"></ul>
+
+          <h3>Reasoning</h3>
+          <p id="reasoning" class="reasoning-text"></p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+  // ✅ All API calls updated to /analyzer/api/...
+  const API_BASE = "/analyzer";
+
+  const audioFileEl = document.getElementById("audioFile");
+  const audioPreviewEl = document.getElementById("audioPreview");
+  const transcribeBtn = document.getElementById("transcribeBtn");
+  const transcribeStatusEl = document.getElementById("transcribeStatus");
+  const transcriptEl = document.getElementById("transcript");
+  const durationOverrideEl = document.getElementById("durationOverride");
+  const analyzeBtn = document.getElementById("analyzeBtn");
+
+  const resultsEmpty = document.getElementById("resultsEmpty");
+  const resultsLoading = document.getElementById("resultsLoading");
+  const resultsError = document.getElementById("resultsError");
+  const resultsContent = document.getElementById("resultsContent");
+
+  let objectUrl = null;
+  let selectedFile = null;
+
+  audioFileEl.addEventListener("change", () => {
+    const file = audioFileEl.files[0];
+    if (!file) return;
+    selectedFile = file;
+    if (objectUrl) URL.revokeObjectURL(objectUrl);
+    objectUrl = URL.createObjectURL(file);
+    audioPreviewEl.src = objectUrl;
+    audioPreviewEl.classList.remove("hidden");
+    transcribeBtn.disabled = false;
+    transcribeStatusEl.textContent = "File loaded. Click Transcribe with Gemini when ready.";
+  });
+
+  async function transcribeWithGemini() {
+    if (!selectedFile) return;
+    transcribeBtn.disabled = true;
+    audioFileEl.disabled = true;
+    transcribeStatusEl.textContent = "Uploading and transcribing… this can take a little while for longer calls.";
+    transcriptEl.value = "";
+    const formData = new FormData();
+    formData.append("file", selectedFile);
+    try {
+      const res = await fetch(`${API_BASE}/api/transcribe`, { method: "POST", body: formData });
+      if (!res.ok) {
+        const errBody = await res.json().catch(() => ({}));
+        throw new Error(errBody.detail || `Request failed with status ${res.status}`);
+      }
+      const data = await res.json();
+      transcriptEl.value = data.transcript;
+      durationOverrideEl.value = Math.round(data.duration_seconds);
+      transcribeStatusEl.textContent = "Transcription complete. Review/edit the text below.";
+    } catch (err) {
+      transcribeStatusEl.textContent = `Error: ${err.message}`;
+    } finally {
+      transcribeBtn.disabled = false;
+      audioFileEl.disabled = false;
+    }
+  }
+
+  transcribeBtn.addEventListener("click", transcribeWithGemini);
+
+  function renderResults(data) {
+    resultsEmpty.classList.add("hidden");
+    resultsLoading.classList.add("hidden");
+    resultsError.classList.add("hidden");
+    resultsContent.classList.remove("hidden");
+
+    const pct = Math.round(data.booking_probability * 100);
+    document.getElementById("bookingProb").textContent = `${pct}%`;
+    document.getElementById("bookingProbBar").style.width = `${pct}%`;
+
+    document.getElementById("sentimentLabel").textContent = data.overall_sentiment;
+    const sentimentPct = ((data.sentiment_score + 1) / 2) * 100;
+    document.getElementById("sentimentMarker").style.left = `${Math.min(98, Math.max(2, sentimentPct))}%`;
+
+    const topicListEl = document.getElementById("topicBreakdown");
+    topicListEl.innerHTML = "";
+    const sorted = [...data.topic_breakdown].sort((a, b) => b.percentage_of_call - a.percentage_of_call);
+    sorted.forEach((topic) => {
+      const row = document.createElement("div");
+      row.className = "topic-row";
+      row.innerHTML = `
+        <span class="topic-name">${topic.topic}</span>
+        <div class="topic-track"><div class="topic-fill" style="width:${topic.percentage_of_call}%"></div></div>
+        <span class="topic-pct">${topic.percentage_of_call.toFixed(0)}%</span>
+        <p class="topic-summary">${topic.summary}</p>
+      `;
+      topicListEl.appendChild(row);
+    });
+
+    const signalsEl = document.getElementById("keySignals");
+    signalsEl.innerHTML = "";
+    data.key_signals.forEach((signal) => {
+      const li = document.createElement("li");
+      li.textContent = signal;
+      signalsEl.appendChild(li);
+    });
+
+    document.getElementById("reasoning").textContent = data.reasoning;
+  }
+
+  async function analyzeCall() {
+    const transcript = transcriptEl.value.trim();
+    const duration = parseFloat(durationOverrideEl.value);
+    if (!transcript) { alert("Please transcribe a recording or enter a transcript first."); return; }
+    if (!duration || duration <= 0) { alert("Please provide a valid call duration in seconds."); return; }
+
+    resultsEmpty.classList.add("hidden");
+    resultsContent.classList.add("hidden");
+    resultsError.classList.add("hidden");
+    resultsLoading.classList.remove("hidden");
+    analyzeBtn.disabled = true;
+
+    try {
+      const res = await fetch(`${API_BASE}/api/analyze`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ transcript, duration_seconds: duration }),
+      });
+      if (!res.ok) {
+        const errBody = await res.json().catch(() => ({}));
+        throw new Error(errBody.detail || `Request failed with status ${res.status}`);
+      }
+      const data = await res.json();
+      renderResults(data);
+    } catch (err) {
+      resultsLoading.classList.add("hidden");
+      resultsError.classList.remove("hidden");
+      resultsError.textContent = `Error: ${err.message}`;
+    } finally {
+      analyzeBtn.disabled = false;
+    }
+  }
+
+  analyzeBtn.addEventListener("click", analyzeCall);
+  </script>
+</body>
+</html>

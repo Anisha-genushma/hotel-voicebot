@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+jinja2
+python-multipart
+pydantic
+python-dotenv
+google-generativeai
+google-genai
+mutagen
+httpx
+faiss-cpu
+numpy
