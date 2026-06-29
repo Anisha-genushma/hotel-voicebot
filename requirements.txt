@@ -1,6 +1,6 @@
-fastapi
+fastapi[standard]==0.115.12
 uvicorn
-jinja2
+jinja2==3.1.6
 python-multipart
 pydantic
 python-dotenv
@@ -10,3 +10,4 @@ mutagen
 httpx
 faiss-cpu
 numpy
+starlette==0.46.2
