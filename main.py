@@ -104,7 +104,7 @@ LANDING_HTML = """<!DOCTYPE html>
     .sub{margin-top:1rem;color:var(--muted);font-size:1rem;max-width:420px;
       margin-inline:auto;line-height:1.6}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
-      gap:1.5rem;width:100%;max-width:960px}
+      gap:1.5rem;width:100%;max-width:640px}
     .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
       padding:2rem 1.75rem 1.75rem;display:flex;flex-direction:column;gap:1rem;
       transition:transform .2s,border-color .2s,box-shadow .2s;
@@ -133,7 +133,7 @@ LANDING_HTML = """<!DOCTYPE html>
   <header class="header">
     <p class="eyebrow">Powered by Gemini AI</p>
     <h1>Hotel <span>AI Suite</span></h1>
-    <p class="sub">Three intelligent tools — one unified platform for modern hospitality operations.</p>
+    <p class="sub">Two intelligent tools — one unified platform for modern hospitality operations.</p>
   </header>
   <main class="grid">
     <a href="/receptionist/" class="card c1">
@@ -143,14 +143,6 @@ LANDING_HTML = """<!DOCTYPE html>
         <p>Simulate or deploy an AI voice agent that greets callers, collects details, and schedules callbacks — with Twilio integration.</p>
       </div>
       <span class="cta">Open simulator <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-    </a>
-    <a href="/faq/" class="card c2">
-      <div class="icon">💬</div>
-      <div class="body">
-        <h2>ITC Grand Chola Concierge</h2>
-        <p>RAG-powered AI voice concierge for ITC Grand Chola — answers guest questions from a FAISS knowledge base with live streaming responses.</p>
-      </div>
-      <span class="cta">Ask Chola <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
     </a>
     <a href="/analyzer/" class="card c3">
       <div class="icon">🎙️</div>
